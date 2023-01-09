@@ -1,0 +1,166 @@
+
+* {
+  margin: 0px 6px 0px 1px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+
+
+nav {
+  padding: 10px;
+  display: flex;
+  position: sticky;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.logo img {
+  width: 150px;
+  height: auto;
+}
+
+.center-nav {
+  display: flex;
+}
+.search {
+  display: flex;
+}
+.search input {
+  min-width: 600px;
+  padding: 10px 20px;
+  border: 0.5px solid #ccc;
+  border-radius: 30px;
+}
+.search button {
+  border: none;
+  padding: 10px 20px;
+}
+
+.mic {
+  padding: 15px;
+  border-radius: 60%;
+  background: rgb(240, 239, 239);
+  display: grid;
+  place-items: center;
+  margin-left: 15px;
+}
+.mic img {
+  width: 30px;
+}
+
+.side-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-right: 50px;
+}
+
+.tags {
+  display: flex;
+  padding: 10px 20px;
+  gap: 15px;
+  position: relative;
+  right: 0px;
+  border-top: 1px solid #ccc;
+}
+.tag {
+  padding: 2px 13px;
+  border-radius: 20px;
+  border: 1px solid rgb(22, 22, 22);
+}
+.dark {
+  background: #000;
+  color: white;
+
+}
+.light {
+  background-color: rgb(240, 238, 238);
+  color: rgb(67, 67, 67);
+  right: 64px;
+
+}
+
+.container {
+  display: flex;
+}
+
+aside {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.side-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.side-icons img {
+  width: 30px;
+}
+
+.side-icons p {
+  font-size: 10px;
+  margin-top: -5px;
+}
+.bars {
+  margin-top: 20px;
+}
+.main-container{
+  width: 100%;
+
+}
+.video-sec{
+  background-color: rgb(240, 238, 238);
+}
+.main{
+  margin-top: 20px;
+}
+iframe{
+  border-radius: 20px;
+}
+iframe:hover{
+  border-radius: 20px;
+  transform: scale(1.5);
+
+}
+.sencond{
+  margin-top: 25px;
+}
+.third{
+  margin-top: 25px;
+}
+.rel{
+  display: inline;
+  position: relative;
+  right: -67px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
